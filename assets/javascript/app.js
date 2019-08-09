@@ -15,6 +15,22 @@ const MyTriviaQuestions = [{
     options: {a: "cashew", b: "almond", c: "pecan", d: "walnut"},
     correctAnswer: "b"
 },
+{
+    question: "What country produces the most potatoes?",
+    options: {a: "China", b: "Ireland", c: "United States", d: "Argentina"},
+    correctAnswer: "a"
+},
+{
+    question: "Europeans first learned of chocolate from whom?",
+    options: {a: "Africans", b: "East Indians", c: "Aztecs", d: "None of these"},
+    correctAnswer: "c"
+},
+
+{
+    question: "The original Bellini was a mixture of sparkling Italian white wine and what type of fruit juice?",
+    options: {a: "apple", b: "orange", c: "peach", d: "pomegranate"},
+    correctAnswer: "c"
+},
 
 {
     question: "In the United States, about how much beer does the average person drink each year?",
@@ -23,7 +39,7 @@ const MyTriviaQuestions = [{
 }];
 
 
-let counter = 30;
+let counter = 40;
 let currentQuestion = 0;
 let score = 0;
 let wrong = 0;
